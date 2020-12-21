@@ -1,0 +1,44 @@
+ .multiselect_dropdown {
+    width: 8rem;
+    height: 2.8rem;
+    border: none;
+    box-shadow: 0px 1px 2px 1px lightgrey;
+    background-color: #fff;
+    outline: none;
+    cursor: pointer;
+}
+
+
+.arrow:after {
+    content: ' \25BC';
+}
+
+.listContainer {
+    box-shadow: 0px 1px 2px 1px lightgrey; 
+    width: 8rem;
+    position: absolute;
+    opacity: 0;
+}
+
+.listContainer span:hover {
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
+.listContainer span {
+    padding: 8px;
+}
+
+.multiselect_container {
+    position: relative;
+    width: 0%;
+    left: 10%;
+    text-align: left;
+    padding: 20px
+    
+}
+
+.listItem {
+    margin-top: 6px;
+    cursor: pointer;
+}

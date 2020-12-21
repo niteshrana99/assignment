@@ -1,5 +1,25 @@
+.d-block {
+  display: block;
+}
+
+.d-inline-block {
+  display: inline-block;
+}
+
+.col-1-of-2{
+  width: 20%;
+  float: left;
+}
+
+.col-2-of-2 {
+  width: 40%;
+  float: left;
+}
+
 .App {
   text-align: center;
+  width: 80%;
+  padding-top: 6rem;
 }
 
 .App-logo {
